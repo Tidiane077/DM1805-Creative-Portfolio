@@ -1,24 +1,19 @@
 function setup() {
   createCanvas(400, 400);
-  background(0,0,225);
+  background(0,20,225);
 }
 
 function draw() {
-  background(220);
-  circle(200, 250, 50);
-  fill(255,0,0);
-  circle(70,50,50);
-  fill(0,255,0);
-  circle(70,50,50);
-  fill(0,0,255);
-  circle(80,50,50);
-    ellipse(50,200,80,40);
-
-
-    stroke(20,200,200);
-  strokeWeight(18);
-  fill(200,20,200)
-
-  rect(200,200,100,5,50);
+  background(0,0,200);
+  fill(255,255,0)
+  stroke (0)
+  circle(200,200,250);
+  fill(0,0,0)
+  arc(200,200,150,150,0,PI);
+  fill(0,0,0)
+  ellipse(150,150,30,50);
+  ellipse(250,150,30,50);
+  stroke(0)
+  strokeWeight(25)
+  line(200,150,200,100);
 }
-
