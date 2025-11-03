@@ -15,5 +15,4 @@ function draw() {
   ellipse(250,150,30,50);
   stroke(0)
   strokeWeight(25)
-  line(200,150,200,100);
 }
